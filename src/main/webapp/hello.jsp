@@ -6,7 +6,11 @@
   GitHub：https://github.com/maomao124/
   Date(创建日期)： 2022/1/4
   Time(创建时间)： 21:43
-  Description(描述)： 无
+  Description(描述)：
+  JSTL fn:join() 函数作用与 fn:split() 相反，用来将数组中的所有元素利用指定的分隔符来连接成一个字符串。
+JSP fn:join() 函数的语法如下：
+String fn:join(array[] , String separator)
+其中，array 表示源数组，separator 是指定的分隔符。
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
